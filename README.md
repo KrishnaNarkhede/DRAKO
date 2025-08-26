@@ -122,3 +122,18 @@ llm-data-analyst/
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
+
+
+##COMMANDS TO RUN
+ollama --version     ##to check ollama version
+
+ollama pull llama3   ## to install ollama
+
+ollama pull llama2
+
+python setup_mysql.py ##to setup mysql
+
+pip install -r requirements.txt   ##Install all dependencies
+
+streamlit run web_interface.py     ## run the project on streamlit
+

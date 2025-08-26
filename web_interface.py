@@ -4,7 +4,7 @@ from data_analyst_mysql import DataAnalystAssistant
 from enhanced_visualizer import EnhancedVisualizer
 import os
 
-st.set_page_config(page_title="Data Analyst Assistant", layout="wide")
+st.set_page_config(page_title="LLM-Based Data Analyst Assistant", layout="wide")
 
 # Custom CSS for better UI
 st.markdown("""
