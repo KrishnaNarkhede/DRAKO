@@ -228,8 +228,13 @@ Upload Data
             st.info("Assistant auto-initialized for file uploads")
         
         for file in uploaded_files:
-            # Save uploaded file temporarily
-            temp_path = f"temp_{file.name}"
+            # Ensure Excel folder exists
+            excel_folder = "Excel"
+            if not os.path.exists(excel_folder):
+                os.makedirs(excel_folder)
+            
+            # Save uploaded file temporarily in Excel folder
+            temp_path = os.path.join(excel_folder, f"temp_{file.name}")
             with open(temp_path, "wb") as f:
                 f.write(file.getbuffer())
             
