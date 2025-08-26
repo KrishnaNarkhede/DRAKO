@@ -83,22 +83,7 @@ An AI-powered data analysis tool that lets you query Excel/CSV files and MySQL d
 
 
 ## 🏗️ Architecture
-
-```
-User Question (Any Language)
-        ↓
-    Translation to English
-        ↓
-    Natural Language → SQL
-        ↓
-    Query Execution (MySQL/SQLite)
-        ↓
-    Results → Insights Generation
-        ↓
-    Translation back to Original Language
-        ↓
-    Display with Visualizations
-```
+![project_architecture](./assets/project_architecture.png)
 
 ## 📁 Project Structure
 
@@ -123,34 +108,13 @@ llm-data-analyst/
 - Automatic language detection and translation
 - Responses in the same language as input
 
-## 🚨 Troubleshooting
+## Demo
+[Watch the demo video](assets/DRAKO_VIDEO.mp4)
 
-**Ollama not responding**:
-```bash
-# Check if Ollama is running
-ollama list
 
-# Restart Ollama
-ollama serve
-```
+## Presentation Link
+[Project Presentation](https://docs.google.com/presentation/d/1cMD-XJwSxvThHUMHSbJxzkLTeGa6Fmhk/edit?usp=sharing&ouid=108710103930304955505&rtpof=true&sd=true)
 
-**MySQL connection issues**:
-- Verify credentials and database exists
-- Check if MySQL server is running
-- Ensure user has proper permissions
-
-**File upload errors**:
-- Check file format (Excel/CSV only)
-- Ensure file is not corrupted
-- Try smaller files first
-
-## 📊 Sample Data
-
-The system works with any tabular data:
-- Sales data (products, revenue, dates)
-- Customer data (names, purchases, regions)
-- Financial data (transactions, accounts)
-- Inventory data (items, quantities, locations)
 
 ## 🤝 Contributing
 
@@ -158,7 +122,3 @@ The system works with any tabular data:
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
-
-## 📄 License
-
-MIT License - see LICENSE file for details
