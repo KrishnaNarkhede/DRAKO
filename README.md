@@ -1,3 +1,4 @@
+   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 # LLM-Based Data Analyst Assistant
 
 An AI-powered data analysis tool that lets you query Excel/CSV files and MySQL databases using natural language in any language. Get insights, visualizations, and SQL queries through a simple chat interface.
@@ -115,7 +116,10 @@ llm-data-analyst/
 ## Presentation Link
 [Project Presentation](https://docs.google.com/presentation/d/1cMD-XJwSxvThHUMHSbJxzkLTeGa6Fmhk/edit?usp=sharing&ouid=108710103930304955505&rtpof=true&sd=true)
 
+ ## 📄 License
+   This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+   
 ## 🤝 Contributing
 
 1. Fork the repository
